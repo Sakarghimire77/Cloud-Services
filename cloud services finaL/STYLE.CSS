@@ -1,0 +1,341 @@
+header {
+  
+    background-color: solid white;
+    color: #069306;
+    padding: 1em;
+    text-align: center;
+}
+.tlogo{
+    image-rendering: initial;
+    padding-left: 1px ;
+    width: 10%;
+    height: 10%;
+}
+
+nav.head{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-right: 20px;
+}
+
+ul.head {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+}
+
+li {
+    margin-right: 20px;
+    position: relative;
+    list-style: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+li:hover .dropdown-content {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color:#6C7484;
+    display: block;
+    padding: 10px;
+}
+.downButton{
+    border: px;
+    border-color: orange;
+    background-color: white;
+    color: orange;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 25px;
+}
+button{
+    background-color: #0C34B4;
+    color: #efeeee;
+    padding: 5px 50px;
+    height: auto;
+    text-align: center;
+    border-radius: 25px;
+}
+img{
+    width: 100%;
+    height: 500px;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity as needed */
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+/* Existing styles for .search-group */
+.search-group {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.search-group label {
+    flex: 0 0 700px;
+    margin-right: 10px;
+}
+
+.search-group input {
+    flex: 5;
+}
+
+
+
+.search-form {
+    position: relative;
+    border: 1px solid #efeeee;
+    background-color: #efeeee;
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    margin-top: -35px;
+    border-radius: 25px;
+}
+
+
+label {
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+    
+}
+
+input, select, textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color:#15209b;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    height:auto ;
+}
+
+form{
+    justify-content: center;
+}
+
+ .sort-container {
+    text-align: right;
+    margin-top: 10px;
+ }
+.container {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.university {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    justify-content: safe;
+}
+
+.logo {
+    background-image: url(./images/melbourne.png);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:#fefefe;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    justify-content:space-around;
+}
+.logo1 {
+    background-image: url(./images/Group\ 87.png);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:#fefefe;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.logo2 {
+    background-image: url(./images/swinburne.png);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:#fefefe;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.logo3 {
+    background-image: url(./images/Griffith.png);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:#fefefe;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.logo4 {
+    background-image: url(./images/southern\ Queensland.png);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:#fefefe;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.logo5 {
+    background-image: url(./images/Sunshine\ Coast.png);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:#fefefe;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    position: relative;
+    margin-left: 70px;
+    text-align: left;
+}
+.border-below-h2::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #ddd;
+    position: absolute;
+    bottom: inherit;
+    left: 0;
+}
+
+.course {
+    color: #555;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.fee,
+.duration {
+    color: #444242;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.sideways {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+footer {
+    background-color: #0C34B4;
+    color: solid white;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: center;
+    padding: 20px;
+}
+.flogo{
+    width: 50%;
+    height: 50%;
+}
+.footer-content {
+    height:250px;
+    width: 250px;
+    text-align : center;
+    margin-bottom : 10px;
+}
+
+nav ul,
+.privacy-policy-container,
+div {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li,
+.privacy-policy-container li,
+div li {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.app-store-buttons {
+    margin-top: 10px;
+}
+
+.app-store-button{
+    background-image: url(./Images/Group.png);
+    width: 130px;
+    height: 40px;
+    object-fit: contain;
+    background-color: solid black;
+    border-radius: 20px;
+}
+.google-play-button {
+    background-image: url(./Images/Layer\ 2.png);
+    width: 130px;
+    height: 40px;
+    object-fit: contain;
+    background-color: solid black;
+    border-radius: 20px;
+}
